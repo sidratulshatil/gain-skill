@@ -1,0 +1,9 @@
+.slider {
+    filter: brightness(60%);
+}
+
+.slider-position {
+    bottom: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
