@@ -11,3 +11,12 @@
 .item-color {
     color: #289BDE;
 }
+
+
+
+@media screen and (min-width:576px) and (max-width:766px) {
+    .pw {
+        width: 530px;
+        height: 300px;
+    }
+}
