@@ -172,11 +172,63 @@
                     <p>You’ll be able to use the skills you’ve learned in courses. </p>
                 </div>
                 <div>
-                    <button class="btn btn-lg btn-light text-info">Register Now</button>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-light text-info" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Register Now
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Fill the form to register</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form action="">
+                                        <h2 class="mb-3">Register</h2>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Name</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="submit your name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Email
+                                                address</label>
+                                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="name@example.com">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="password">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Confirm
+                                                Password</label>
+                                            <input type="password" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="password">
+                                        </div>
+
+                                        <button class="btn btn-warning" type="submit">Submit</button>
+                                        <button class="btn btn-warning" type="reset">Reset</button>
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>
+            </div>
         </section>
+        <!-- modal part end -->
+
         <!-- Ready to join part end -->
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
