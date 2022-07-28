@@ -8,11 +8,12 @@
     padding-right: 100px;
 }
 
-.item-color {
-    color: #289BDE;
+.carousel-caption {
+
+    transform: translateY(-50%);
+    bottom: initial;
+    top: 50%;
 }
-
-
 
 @media screen and (min-width:576px) and (max-width:766px) {
     .pw {
